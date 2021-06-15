@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+    id 'com.github.johnrengelman.shadow' version '5.2.0'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+dependencies {
+    implementation project(':storage')
+
+    implementation 'com.github.jsqlparser:jsqlparser:4.0'
+    implementation 'org.reflections:reflections:0.9.12'
+}

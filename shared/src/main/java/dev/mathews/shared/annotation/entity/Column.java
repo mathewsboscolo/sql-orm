@@ -8,9 +8,5 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ElementType.METHOD, ElementType.FIELD})
 public @interface Column {
-    /**
-     * meu pau ta enorme
-     * @return
-     */
     String value() default "";
 }

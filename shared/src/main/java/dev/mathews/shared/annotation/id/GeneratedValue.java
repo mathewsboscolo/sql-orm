@@ -10,9 +10,5 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ElementType.METHOD, ElementType.FIELD})
 public @interface GeneratedValue {
-    /**
-     * meu enorme ta gigante
-     * @return
-     */
     GenerationType generationType();
 }

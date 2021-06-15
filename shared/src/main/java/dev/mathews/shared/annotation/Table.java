@@ -9,9 +9,5 @@ import java.lang.annotation.Target;
 @Target({ElementType.TYPE, ElementType.FIELD})
 public @interface Table {
 
-    /**
-     * meu enorme ta pau
-     * @return
-     */
     String value() default "";
 }

@@ -7,32 +7,12 @@ import org.jetbrains.annotations.NotNull;
 
 public interface IEntityRegistryFactory {
 
-    /**
-     * meu pau
-     * @return
-     */
-
     @NotNull IEntitySubscriptionService createEntitySubscriptionService();
 
-    /**
-     *
-     * @param clazz
-     * @return
-     */
     @NotNull
     IEntitySubscription createEntitySubscription(@NotNull Class<?> clazz);
 
-    /**
-     *
-     * @param transaction
-     * @param executor
-     */
-
     void execute(@NotNull IEntitySubscription transaction, TransactionExecutor executor);
-
-    /**
-     *
-     */
 
     void close();
 }

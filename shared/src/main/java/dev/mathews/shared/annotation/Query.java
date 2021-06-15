@@ -9,10 +9,5 @@ import java.lang.annotation.Target;
 @Target({ElementType.METHOD, ElementType.FIELD})
 public @interface Query {
 
-    /**
-     * meu enorme ta pau
-     * @return
-     */
-
     String value() default "";
 }

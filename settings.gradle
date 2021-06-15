@@ -1,4 +1,0 @@
-rootProject.name = 'sql-orm'
-include 'shared'
-include 'storage'
-
